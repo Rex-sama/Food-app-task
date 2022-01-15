@@ -1,0 +1,31 @@
+.category-box {
+  background: #f5f6f7;
+}
+.category-box > p {
+  height: 3px;
+  box-shadow: 0px 3px 7px #bbbbbb;
+}
+.category-flex {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0px 30px 0px; */
+  width: 50%;
+  margin: 60px auto 0 auto;
+}
+
+.category-flex p {
+  text-align: center;
+  font-size: 0.75em;
+}
+.next-arrow {
+  background: red;
+}
+@media screen and (max-width: 412px) {
+  .category-flex {
+    width: 80%;
+  }
+}

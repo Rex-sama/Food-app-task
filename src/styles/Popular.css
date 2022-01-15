@@ -1,0 +1,149 @@
+.popular-main-container {
+  margin-bottom: 50px;
+}
+
+/* .popular-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.popular-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: 0 auto 40px auto;
+}
+.popular-heading > h4 {
+  color: #1f2933;
+  font-weight: bolder;
+  width: 50%;
+}
+.popular-navigate {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.popular-week-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.popular-week-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dish-carousal-image {
+  width: 100%;
+  height: 190px;
+}
+.arrow-icons {
+  background-size: contain;
+  background: #ec2044;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-icons :nth-child(1) {
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 1.2em;
+}
+#view-all {
+  background: #ec2044;
+  font-size: 0.8em;
+  color: white;
+  font-weight: 100;
+  padding: 8px 35px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+#view-arrow-buttons {
+  border: 1px solid #2c8c64;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #2c8c64;
+  margin-right: 10px;
+}
+
+.main-nav-drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#select-day-dropdown {
+  width: 25vw;
+  position: relative;
+  top: -20px;
+  background: white;
+  font-size: 0.7em;
+  border: 1px solid #e9e9e9;
+  border-radius: 120px;
+  padding: 4px 5px 4px 10px;
+  font-style: normal;
+}
+
+.first-dropdown-content {
+  color: #bbbbbb;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dropdown-items {
+  width: 100%;
+  padding: 0;
+  font-size: 0.7em;
+}
+.dropdown-content {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+.dropdown-content > svg {
+  color: grey;
+}
+.dropdown-icon > svg {
+  font-size: 2em;
+  color: rgb(165, 165, 165);
+}
+
+#select-day-dropdown::after {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  #select-day-dropdown {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 412px) {
+  #select-day-dropdown {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .popular-heading {
+    display: block;
+  }
+  .popular-heading > h4 {
+    width: 100%;
+  }
+  .popular-navigate {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

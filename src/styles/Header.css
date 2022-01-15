@@ -1,0 +1,40 @@
+header > p {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 3px 0;
+}
+header > p > span {
+  color: #ec2044;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+header > div > img {
+  width: 40px;
+  height: 45px;
+  margin: 5px 0;
+}
+header > div > center button {
+  padding: 3px 12px;
+  font-weight: 500;
+  border: 1px solid #ec2044;
+  border-radius: 20px;
+  font-size: 0.8em;
+}
+header > div > center :nth-child(1) {
+  color: #ec2044;
+  background: white;
+  margin-right: 10px;
+}
+header > div > center :nth-child(2) {
+  color: white;
+  background: #ec2044;
+  margin-left: 10px;
+}
